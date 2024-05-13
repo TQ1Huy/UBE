@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "nodemon index.js",
+    "start_dev": "pm2 start ecosystem.config.js --env development",
+    "start_prod": "pm2 start ecosystem.config.js --env production"
+  },
+  "dependencies": {
+    "@ant-design/plots": "^1.2.5",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "qs": "^6.11.2",
+    "rand-token": "^1.0.1"
+  }
+}
